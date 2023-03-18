@@ -3,7 +3,8 @@ package org.example;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Box {
+public class Box {  //define a Box of Parcel Locker
+
     private int height;
     private int width;
     private int depth;
@@ -15,7 +16,7 @@ public class Box {
 
     private boolean door;
 
-    public Box(int height, int width, int depth) {
+    public Box(int height, int width, int depth) {  //Box constructor
         this.height = height;
         this.width = width;
         this.depth = depth;
@@ -23,7 +24,7 @@ public class Box {
         this.door=false;
 
     }
-    public void setNumber_id(String number_id) {
+    public void setNumber_id(String number_id) {    //set number id of box
         if(!this.busy)
         {
             if(number_id.equals(-1))
@@ -37,7 +38,7 @@ public class Box {
         }
 
     }
-    public void setNumber_tel(int number_tel) {
+    public void setNumber_tel(int number_tel) { //set telephone number of box
 
         if(!this.busy)
         {
@@ -51,9 +52,9 @@ public class Box {
 
     public void setDoor(boolean door) {
         this.door = door;
-    }
+    }//set door open-true, close-false
 
-    public boolean check(int a, int b, int c)
+    public boolean check(int a, int b, int c) //check if the packing is according to the box
     {
         ArrayList<Integer> package_dimensions=new ArrayList<Integer>();
         package_dimensions.add(a);
@@ -74,22 +75,22 @@ public class Box {
 
     public void setBusy(boolean busy) {
         this.busy = busy;
-    }
+    }//set Busy
 
     public boolean isBusy() {
         return busy;
-    }
+    }//check if the boxing is busy
 
     public String getNumber_id() {
         return number_id;
-    }
+    }//return number_id
 
     public int getNumber_tel() {
         return number_tel;
-    }
+    }//return number telephone
 
     public boolean isDoor() {
         return door;
-    }
+    }//check if the door is open
 
 }
