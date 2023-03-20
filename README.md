@@ -1,0 +1,1 @@
+# Parcel_LockerProjekt, którego celem jest odwzorowanie paczkomatu, ma możliwość wkładania i odbiernia paczek, przy zajętości mniejszych pudełek, potrafi przyporządkować wolną większe pudełko. Projekt jest wyposażony w zabezpieczenie poprawnośc wpisywanych danych.
