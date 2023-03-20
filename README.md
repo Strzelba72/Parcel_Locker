@@ -1,1 +1,3 @@
-# Parcel_LockerProjekt, którego celem jest odwzorowanie paczkomatu, ma możliwość wkładania i odbiernia paczek, przy zajętości mniejszych pudełek, potrafi przyporządkować wolną większe pudełko. Projekt jest wyposażony w zabezpieczenie poprawnośc wpisywanych danych.
+# Parcel_Locker
+
+The project, which aims to replicate a parcel box, has the ability to put in and take away packages, with smaller boxes occupied, it can assign a free larger box. The project is equipped with protection of the correctness of the entered data.
